@@ -1,6 +1,6 @@
 header {
   height: 100vh;
-  padding-top: 15rem;
+  padding-top: 30vh;
   overflow: hidden;
   align-items: center;
   place-items: center;
@@ -50,6 +50,7 @@ header {
 @media screen and (max-width: 1024px) {
   header {
     height: 68vh;
+    padding-top: 24vh;
   }
 }
 
