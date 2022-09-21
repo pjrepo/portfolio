@@ -48,8 +48,8 @@
 .skill__level:hover {
   background: transparent;
   background-color: var(--color-primary-variant);
-  /* padding-left: 10px;
-  padding-right: 10px; */
+  padding-left: 10px;
+  padding-right: 10px;
   border-radius: 5px;
   cursor: default;
 }
