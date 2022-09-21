@@ -13,6 +13,7 @@ const items = [
     contactDetail: "pavanjegurupati75@gmail.com",
     link: "mailto:pavanjegurupati75@gmail.com",
     message: "Send a message",
+    rel: "a",
   },
   {
     i: 2,
@@ -21,6 +22,7 @@ const items = [
     contactDetail: "Pavan Jegurupati",
     link: "https://www.linkedin.com/in/pavan-jegurupati-130890191/",
     message: "Send a message",
+    rel: "ab",
   },
   {
     i: 3,
@@ -29,6 +31,7 @@ const items = [
     contactDetail: "8978635795",
     link: "https:/api.whatsapp.com/send?phone=+91 8978635795",
     message: "Send a message or call",
+    rel: "abc",
   },
 ];
 
@@ -71,9 +74,12 @@ const Contact = () => {
                 {icon}
                 <h4 className="text-light">{contactOption}</h4>
                 <h5>{contactDetail}</h5>
-                <a href={link} target="_blank" rel="nofollow">
+                <div
+                  className="link"
+                  onClick={() => window.open(link, "_blank")}
+                >
                   {message}
-                </a>
+                </div>
               </article>
             );
           })}
