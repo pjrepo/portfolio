@@ -71,7 +71,7 @@ const Contact = () => {
                 {icon}
                 <h4 className="text-light">{contactOption}</h4>
                 <h5>{contactDetail}</h5>
-                <a href={link} target="_blank">
+                <a href={link} target="_blank" rel="nofollow">
                   {message}
                 </a>
               </article>
