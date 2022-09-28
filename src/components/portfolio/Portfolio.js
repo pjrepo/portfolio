@@ -82,42 +82,34 @@ const Portfolio = () => {
       <h5>My recent work</h5>
       <h2>Projects</h2>
       <div className="container portfolio__container">
-        {projects.map((item) => {
-          const { i, image, title, description, liveLink, sourceCode } = item;
-          return (
-            <article key={i} className="portfolio__item">
-              <div className="portfolio__item-image">
-                <img src={image} alt="" />
-                <h3>{title}</h3>
-                <p>{description}</p>
-                <div className="portfolio__item-cta">
-                  <div
-                    className="btn btn-primary"
-                    onClick={() => window.open(liveLink, "_blank")}
-                  >
-                    view
+        {projects
+          .sort((a, b) => b.i - a.i)
+          .map((item) => {
+            const { i, image, title, description, liveLink, sourceCode } = item;
+            return (
+              <article key={i} className="portfolio__item">
+                <div className="portfolio__item-image">
+                  <img src={image} alt="" />
+                  <h3>{title}</h3>
+                  <p>{description}</p>
+                  <div className="portfolio__item-cta">
+                    <div
+                      className="btn btn-primary"
+                      onClick={() => window.open(liveLink, "_blank")}
+                    >
+                      view
+                    </div>
+                    <div
+                      className="btn"
+                      onClick={() => window.open(sourceCode, "_blank")}
+                    >
+                      code
+                    </div>
                   </div>
-                  <div
-                    className="btn"
-                    onClick={() => window.open(sourceCode, "_blank")}
-                  >
-                    code
-                  </div>
-                  {/* <a
-                    href={liveLink}
-                    className="btn btn-primary"
-                    target="_blank"
-                  >
-                    view
-                  </a> */}
-                  {/* <a href={sourceCode} className="btn" target="_blank">
-                    code
-                  </a> */}
                 </div>
-              </div>
-            </article>
-          );
-        })}
+              </article>
+            );
+          })}
       </div>
     </section>
   );
