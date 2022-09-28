@@ -91,16 +91,28 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <p>{description}</p>
                 <div className="portfolio__item-cta">
-                  <a
+                  <div
+                    className="btn btn-primary"
+                    onClick={() => window.open(liveLink, "_blank")}
+                  >
+                    view
+                  </div>
+                  <div
+                    className="btn"
+                    onClick={() => window.open(sourceCode, "_blank")}
+                  >
+                    code
+                  </div>
+                  {/* <a
                     href={liveLink}
                     className="btn btn-primary"
                     target="_blank"
                   >
                     view
-                  </a>
-                  <a href={sourceCode} className="btn" target="_blank">
+                  </a> */}
+                  {/* <a href={sourceCode} className="btn" target="_blank">
                     code
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </article>

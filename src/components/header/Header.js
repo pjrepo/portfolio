@@ -28,9 +28,13 @@ const Header = () => {
           {items.map((item) => {
             const { i, link, icon } = item;
             return (
-              <a key={i} href={link} target="_blank">
+              <div
+                className="link"
+                key={i}
+                onClick={() => window.open(link, "_blank")}
+              >
                 {icon}
-              </a>
+              </div>
             );
           })}
         </div>

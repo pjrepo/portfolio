@@ -28,7 +28,7 @@ const items = [
     i: 3,
     icon: <BsWhatsapp />,
     contactOption: "Whats App",
-    contactDetail: "8978635795",
+    contactDetail: "+91 8978635795",
     link: "https:/api.whatsapp.com/send?phone=+91 8978635795",
     message: "Send a message or call",
     rel: "abc",
