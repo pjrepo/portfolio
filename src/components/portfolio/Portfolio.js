@@ -1,26 +1,26 @@
 import React from "react";
 import "./Portfolio.css";
-import IMG1 from "../../assets/snakegame.webp";
-import IMG2 from "../../assets/tictactoe.webp";
-import IMG3 from "../../assets/cryptotracker.webp";
-import IMG4 from "../../assets/admindashboard.webp";
-import IMG5 from "../../assets/colorpicker.webp";
-import IMG6 from "../../assets/todo.webp";
-import IMG7 from "../../assets/cocktailsapi.webp";
-import IMG8 from "../../assets/sortingvisualizer.webp";
+import snakegame from "../../assets/snakegame.webp";
+import tictactoe from "../../assets/tictactoe.webp";
+import cryptotracker from "../../assets/cryptotracker.webp";
+import admindashboard from "../../assets/admindashboard.webp";
+import colorpicker from "../../assets/colorpicker.webp";
+import taskmanager from "../../assets/taskmanager.webp";
+import cocktailsapi from "../../assets/cocktailsapi.webp";
+import sortingvisualizer from "../../assets/sortingvisualizer.webp";
+import expensetracker from "../../assets/expensetracker.webp";
 
 const projects = [
   {
     i: 1,
-    image: IMG1,
-    title: "RETRO SNAKE GAME",
+    image: colorpicker,
+    title: "COLOR PICKER EXTENSION",
     description: "Project description",
-    liveLink: "https://dribbble.com/Alien_pixels",
     sourceCode: "https://github.com",
   },
   {
     i: 2,
-    image: IMG2,
+    image: tictactoe,
     title: "TIC TAC TOE",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
@@ -28,15 +28,15 @@ const projects = [
   },
   {
     i: 3,
-    image: IMG3,
-    title: "Cryptocurrency Tracker",
+    image: cocktailsapi,
+    title: "COCKTAILs API",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
     sourceCode: "https://github.com",
   },
   {
     i: 4,
-    image: IMG4,
+    image: admindashboard,
     title: "Admin Dashboard",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
@@ -44,32 +44,40 @@ const projects = [
   },
   {
     i: 5,
-    image: IMG5,
-    title: "COLOR PICKER",
+    image: snakegame,
+    title: "RETRO SNAKE GAME",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
     sourceCode: "https://github.com",
   },
   {
     i: 6,
-    image: IMG6,
-    title: "TODO APP",
+    image: sortingvisualizer,
+    title: "SORTING VISUALIZER",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
     sourceCode: "https://github.com",
   },
   {
     i: 7,
-    image: IMG7,
-    title: "COCKTAILs API",
+    image: cryptotracker,
+    title: "Cryptocurrency Tracker",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
     sourceCode: "https://github.com",
   },
   {
     i: 8,
-    image: IMG8,
-    title: "SORTING VISUALIZER",
+    image: taskmanager,
+    title: "TASK MANAGER",
+    description: "Project description",
+    liveLink: "https://dribbble.com/Alien_pixels",
+    sourceCode: "https://github.com",
+  },
+  {
+    i: 9,
+    image: expensetracker,
+    title: "EXPENSE TRACKER",
     description: "Project description",
     liveLink: "https://dribbble.com/Alien_pixels",
     sourceCode: "https://github.com",
@@ -93,12 +101,14 @@ const Portfolio = () => {
                   <h3>{title}</h3>
                   <p>{description}</p>
                   <div className="portfolio__item-cta">
-                    <div
-                      className="btn btn-primary"
-                      onClick={() => window.open(liveLink, "_blank")}
-                    >
-                      view
-                    </div>
+                    {title !== "COLOR PICKER EXTENSION" && (
+                      <div
+                        className="btn btn-primary"
+                        onClick={() => window.open(liveLink, "_blank")}
+                      >
+                        view
+                      </div>
+                    )}
                     <div
                       className="btn"
                       onClick={() => window.open(sourceCode, "_blank")}
