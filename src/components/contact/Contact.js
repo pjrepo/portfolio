@@ -20,7 +20,7 @@ const items = [
     icon: <BsLinkedin />,
     contactOption: "LinkedIn",
     contactDetail: "Pavan Jegurupati",
-    link: "https://www.linkedin.com/in/pavan-jegurupati-130890191/",
+    link: "https://www.linkedin.com/in/pavan-jegurupati/",
     message: "Send a message",
     rel: "ab",
   },
