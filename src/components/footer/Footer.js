@@ -15,15 +15,27 @@ const items = [
 ];
 
 const socials = [
-  { i: 1, link: "https://facebook.com", icon: <FaFacebookF /> },
-  { i: 2, link: "https://instagram.com", icon: <FiInstagram /> },
-  { i: 3, link: "https://twitter.com", icon: <IoLogoTwitter /> },
+  {
+    i: 1,
+    link: "https://www.facebook.com/pavanjegurupati",
+    icon: <FaFacebookF />,
+  },
+  {
+    i: 2,
+    link: "https://www.instagram.com/pjegurupati75/",
+    icon: <FiInstagram />,
+  },
+  {
+    i: 3,
+    link: "https://twitter.com/pavanjegurupati",
+    icon: <IoLogoTwitter />,
+  },
 ];
 
 const Footer = () => {
   return (
     <footer>
-      <a href="#" className="footer__logo">
+      <a href="#home" className="footer__logo">
         {name}
       </a>
       <ul className="permalinks">
