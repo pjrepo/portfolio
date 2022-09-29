@@ -32,6 +32,10 @@
 
 .portfolio__item p {
   margin-bottom: 1rem;
+  color: white;
+}
+
+.portfolio__item p span b {
   color: var(--color-primary);
 }
 

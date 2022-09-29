@@ -8,9 +8,9 @@ const skillSet = [
     heading: "Frontend Development",
     style: "frontend",
     skills: [
-      { j: 1, technology: "HTML", level: "Advanced" },
-      { j: 2, technology: "CSS", level: "Intermediate" },
-      { j: 3, technology: "Javascript", level: "Advanced" },
+      { j: 1, technology: "HTML 5", level: "Advanced" },
+      { j: 2, technology: "CSS 3", level: "Intermediate" },
+      { j: 3, technology: "Javascript(ES 6+)", level: "Advanced" },
       { j: 4, technology: "React Js", level: "Advanced" },
       { j: 5, technology: "Next Js", level: "Intermediate" },
       { j: 6, technology: "Redux", level: "Intermediate" },

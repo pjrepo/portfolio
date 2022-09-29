@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import CV from "../../assets/Pavan Jegurupati resume.pdf";
+import CV from "../../assets/Pavan-Jegurupati_CV.pdf";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const greeting = "Hi there 👋, I'm";
@@ -8,8 +8,12 @@ const name = "Pavan Jegurupati";
 const intro = "A software developer with passion for learning and creating";
 
 const items = [
-  { i: 1, link: "https://linkedin.com", icon: <BsLinkedin /> },
-  { i: 2, link: "https://github.com", icon: <BsGithub /> },
+  {
+    i: 1,
+    link: "https://linkedin.com/in/pavan-jegurupati",
+    icon: <BsLinkedin />,
+  },
+  { i: 2, link: "https://github.com/pjrepo", icon: <BsGithub /> },
 ];
 
 const Header = () => {

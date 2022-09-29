@@ -11,7 +11,7 @@ const items = [
     icon: <MdOutlineEmail />,
     contactOption: "Email",
     contactDetail: "pavanjegurupati75@gmail.com",
-    link: "mailto:pavanjegurupati75@gmail.com",
+    link: "https://mailto:pavanjegurupati75@gmail.com",
     message: "Send a message",
     rel: "a",
   },
