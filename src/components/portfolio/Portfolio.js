@@ -7,7 +7,7 @@ import admindashboard from "../../assets/admindashboard.webp";
 import colorpicker from "../../assets/colorpicker.webp";
 import taskmanager from "../../assets/taskmanager.webp";
 import cocktailsapi from "../../assets/cocktailsapi.webp";
-import sortingvisualizer from "../../assets/sortingvisualizer.webp";
+import quizapp from "../../assets/quizapp.webp";
 import expensetracker from "../../assets/expensetracker.webp";
 import portfoliowebsite from "../../assets/portfoliowebsite.webp";
 
@@ -33,7 +33,7 @@ const projects = [
   {
     i: 3,
     image: cocktailsapi,
-    title: "COCKTAILs API",
+    title: "COCKTAILS API",
     description: [{ j: "1", technology: "React Js" }],
     liveLink: "https://cocktails-api-pjrepo.vercel.app/",
     sourceCode: "https://github.com/pjrepo/cocktails",
@@ -41,7 +41,7 @@ const projects = [
   {
     i: 4,
     image: admindashboard,
-    title: "Admin Dashboard",
+    title: "ADMIN DASHBOARD",
     description: [{ j: "1", technology: "React Js" }],
     liveLink: "https://admin-dashboard-pjrepo.vercel.app/",
     sourceCode: "https://github.com/pjrepo/admin-dashboard",
@@ -59,25 +59,22 @@ const projects = [
   },
   {
     i: 6,
-    image: sortingvisualizer,
-    title: "SORTING VISUALIZER",
-    description: [
-      { j: "1", technology: "Algorithms" },
-      { j: "2", technology: "React Js" },
-    ],
-    liveLink: "https://dribbble.com/Alien_pixels",
-    sourceCode: "https://github.com",
-  },
-  {
-    i: 7,
     image: cryptotracker,
-    title: "Cryptocurrency Tracker",
+    title: "CRYPTOCURRENCY TRACKER",
     description: [
       { j: "1", technology: "React Js" },
       { j: "2", technology: "Material UI" },
     ],
     liveLink: "https://cryptix-pjrepo.vercel.app/",
     sourceCode: "https://github.com/pjrepo/cryptix",
+  },
+  {
+    i: 7,
+    image: quizapp,
+    title: "QUIZ APP",
+    description: [{ j: "1", technology: "React Js" }],
+    liveLink: "https://quiz-app-pjrepo.vercel.app/",
+    sourceCode: "https://github.com/pjrepo/quiz-app",
   },
   {
     i: 8,
@@ -89,18 +86,6 @@ const projects = [
   },
   {
     i: 9,
-    image: taskmanager,
-    title: "TASK MANAGER",
-    description: [
-      { j: "1", technology: "Node Js" },
-      { j: "2", technology: "React Js" },
-      { j: "3", technology: "Mongo DB" },
-    ],
-    liveLink: "https://dribbble.com/Alien_pixels",
-    sourceCode: "https://github.com",
-  },
-  {
-    i: 10,
     image: expensetracker,
     title: "EXPENSE TRACKER",
     description: [
@@ -108,8 +93,20 @@ const projects = [
       { j: "2", technology: "React Js" },
       { j: "3", technology: "Mongo DB" },
     ],
-    liveLink: "https://dribbble.com/Alien_pixels",
-    sourceCode: "https://github.com",
+    liveLink: "",
+    sourceCode: "https://github.com/pjrepo/expense-tracker",
+  },
+  {
+    i: 10,
+    image: taskmanager,
+    title: "TASK MANAGER",
+    description: [
+      { j: "1", technology: "Next Js" },
+      { j: "2", technology: "Firebase" },
+      { j: "3", technology: "Mongo DB" },
+    ],
+    liveLink: "https://tm-next-firebase-mongo-pjrepo.vercel.app/",
+    sourceCode: "https://github.com/pjrepo/tm-next-firebase-mongo",
   },
 ];
 
