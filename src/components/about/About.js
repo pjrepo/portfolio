@@ -8,11 +8,6 @@ const About = () => {
       <h5>Let's know</h5>
       <h2>About Me</h2>
       <div className="container about__container">
-        <div className="about__me">
-          <div className="about__me-image">
-            <img src={MYIMAGE} alt="about" />
-          </div>
-        </div>
         <div className="about__content">
           <p>
               I am a skilled Software Engineer with a strong foundation in web development, specializing in building high-performance and scalable applications. With over one and half years of experience, I have contributed to a variety of projects, including headless e-commerce solutions and innovative tools for client onboarding and background verification.
@@ -25,15 +20,6 @@ const About = () => {
           </p>
           <p>
               I am passionate about solving complex problems, mentoring peers, and continuously expanding my knowledge in the tech space. When I'm not coding, I enjoy exploring innovative ideas and staying up-to-date with the latest trends in software development.
-          </p>
-          <p>
-            From being a Branch Representative in university to a web developer,
-            I always thrive to come up with best and efficient solution.{" "}
-            <b style={{ color: "white" }}>"</b> I'm currently looking for an
-            opportunity to showcase my skills. I'm excited to make the leap and
-            continue refining my skills with the right company{" "}
-            <b style={{ color: "white" }}>"</b>. If you're looking for a
-            developer to add to your team, I'd love to hear from you.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let' Talk
