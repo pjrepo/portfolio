@@ -24,7 +24,7 @@ const About = () => {
             interest!
           </p>
           <p>
-              I am a skilled Software Engineer with a strong foundation in web development, specializing in building scalable and high-performance applications. With over two years of experience, I have contributed to a variety of projects, including headless e-commerce solutions and innovative tools for client onboarding and background verification
+              I am a skilled Software Engineer with a strong foundation in web development, specializing in building high-performance and scalable applications. With over two years of experience, I have contributed to a variety of projects, including headless e-commerce solutions and innovative tools for client onboarding and background verification
           </p>
           <p>
             From being a Branch Representative in university to a web developer,
