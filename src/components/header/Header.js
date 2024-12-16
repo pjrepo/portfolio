@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import CV from "../../assets/Pavan-Jegurupati_CV.pdf";
+import CV from "../../assets/PavanJegurupati_Resume.pdf";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 
 const greeting = "Hi there 👋, I'm";
